@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:480px) {
+  /* --------------------------
+ 全体構造
+-------------------------- */
+  .content {
+    overflow: hidden;
+    width: auto;
+    margin: 0 auto 20px auto;
+  }
+  /* --------------------------
+ ヘッダー
+-------------------------- */
+  header .inner {
+    height: auto;
+    width: auto;
+  }
+  header h1 {
+    text-align: center;
+    position: static;
+    margin: 20px 0 20px 0;
+  }
+  header nav.main-nav{
+    display: none;
+  }
+  header button.hamburger-button{
+  display: flex;
+  background-color: transparent;
+}
+  header button.hamburger-button svg{
+    width: 30px;
+    height: 30px;
+  }
+  header button.hamburger-button path{
+    fill:#fff;
+  }
+  header .hamburger-nav{
+    height: 100vh;
+    background-color: rgba(0,0,0,.5)
+  }
+ /* header nav.main-nav {
+    position: static;
+  }
+  header nav.main-nav ul {
+    overflow: hidden;
+    background-color: var(--main-color);
+  }
+  header nav.main-nav li {
+    margin-right: 0px;
+    width: 25%;
+  }
+  header nav.main-nav li img {
+    width: 100%;
+    height: auto;
+  }*/
+  
+  
+  /* --------------------------
+ メイン
+-------------------------- */
+  main {
+    width: auto;
+    float: none;
+    margin-bottom: 60px;
+  }
+  /* --------------------------
+ サイド
+-------------------------- */
+  aside {
+    width: auto;
+    float: none;
+    margin: 0 auto;
+  }
+  aside .banner {
+    text-align: center;
+  }
+  aside .news {
+    margin: 0 20px;
+  }
+  /* --------------------------
+ フッター
+-------------------------- */
+  footer address {
+    margin-top: 20px;
+    font-style: normal;
+    line-height: 1.42;
+  }
+  footer p {
+    margin: 20px 0;
+  }
+  /* --------------------------
+ トップページ
+-------------------------- */
+  .home main figure img {
+    width: 100%;
+    height: auto;
+  }
+  /* --------------------------
+ 学科紹介
+-------------------------- */
+  .course main article {
+    margin: 0 20px;
+  }
+  .course main section {
+    margin: auto;
+    overflow: hidden;
+  }
+  .course main figure {
+    float: none;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .course main p {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+}
